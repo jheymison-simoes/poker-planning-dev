@@ -7,21 +7,19 @@
 
 <div class="page">
     <main>
-        <article class="content px-4">
-            <ErrorBoundary @ref="@ErrorBoundary">
-                <ChildContent>
-                    @Body
-                </ChildContent>
-                <ErrorContent >
-                    <MudAlert
-                        Severity="@Severity.Error"
-                        Variant="@Variant.Outlined"
-                    >
-                        Ocorreu um erro inesperado! Tente atualizar a página
-                    </MudAlert>
-                </ErrorContent>
-            </ErrorBoundary>
-        </article>
+        <ErrorBoundary @ref="@ErrorBoundary">
+            <ChildContent>
+                @Body
+            </ChildContent>
+            <ErrorContent >
+                <MudAlert
+                    Severity="@Severity.Error"
+                    Variant="@Variant.Outlined"
+                >
+                    Ocorreu um erro inesperado! Tente atualizar a página
+                </MudAlert>
+            </ErrorContent>
+        </ErrorBoundary>
     </main>
 </div>
 

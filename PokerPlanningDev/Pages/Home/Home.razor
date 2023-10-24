@@ -1,33 +1,44 @@
 ﻿@page "/"
-@using MudBlazor
 @inherits HomeBase
 
 <PageTitle>Home</PageTitle>
 
-<main class="home-main container">
+<main class="home-main">
 
-    <h1>Criar Sala</h1>
-    
-    <EditForm Model="@Form" OnSubmit="@OnValidSubmit">
-        <DataAnnotationsValidator/>
+    <div class="home-form">
+        
+        <section class="home-form-logo">
+            <img src="images/logo.png" alt="logo">
+            <h1>DUELO - POKER PLANNING</h1>
+        </section>
+        
+        <EditForm Model="@Form" OnSubmit="@OnValidSubmit">
+            <DataAnnotationsValidator/>
 
-        <MudTextField 
-            Label="Nome da Sala" 
-            Variant="@Variant.Outlined"
-            Class="mb-2"
-            @bind-Value="@Form.Name" 
-            For="@(() => Form.Name)"
-        />
-        <MudButton
-            Variant="@Variant.Outlined"
-            Color="@Color.Success"
-            Class="ml-auto"
-            EndIcon="@Icons.Material.Filled.Create"
-            ButtonType="@ButtonType.Submit"
-            Size="@Size.Large"
-        >
-            CRIAR
-        </MudButton>
-    </EditForm>
-
+            <h3>Vamos começar criando uma sala</h3>
+            <MudTextField
+                Label="Nome da Sala"
+                Variant="@Variant.Outlined"
+                Class="mb-5"
+                @bind-Value="@Form.Name"
+                For="@(() => Form.Name)"
+                Margin="@Margin.Normal"
+            />
+            
+            <MudButton
+                Variant="@Variant.Filled"
+                Color="@Color.Success"
+                Class="ml-auto"
+                EndIcon="@Icons.Material.Filled.Create"
+                ButtonType="@ButtonType.Submit"
+                Size="@Size.Large">
+                CRIAR
+            </MudButton>
+        </EditForm>
+        
+        <section class="room-info">
+            <MudIcon Icon="@Icons.Material.Filled.CloudCircle"></MudIcon>
+            <span>@QuantityRooms</span>
+        </section>
+    </div>
 </main>

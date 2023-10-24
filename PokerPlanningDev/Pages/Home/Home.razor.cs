@@ -10,19 +10,18 @@ namespace PokerPlanningDev.Pages.Home;
 
 public class HomeBase : BaseComponent
 {
-
     #region Dependencies
     [Inject] private ILivingRoomService LivingRoomService { get; set; }
     #endregion
 
     #region Objects
-    protected EditContext EditContext;
     protected LivingRoomForm Form = new();
+    protected int QuantityRooms;
     #endregion
 
     protected override void OnInitialized()
     {
-        EditContext = new(Form);
+        QuantityRooms = LivingRoomService.GetQuantityRooms();
     }
     
     protected void OnValidSubmit(EditContext editContext)

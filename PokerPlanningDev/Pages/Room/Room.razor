@@ -10,9 +10,17 @@
     
     @if (Room is null || Player is null)
     {
-        <MudSkeleton />
-        <MudSkeleton SkeletonType="SkeletonType.Circle" />
-        <MudSkeleton SkeletonType="SkeletonType.Rectangle" />
+        <div class="row">
+            <div class="col-sm-12 col-md-4 flex-center">
+                <MudSkeleton Animation="@Animation.Pulse" SkeletonType="@SkeletonType.Rectangle" Width="80%" Height="40vh" />
+            </div>
+            <div class="col-sm-12 col-md-4 flex-center">
+                <MudSkeleton Animation="@Animation.Pulse" SkeletonType="@SkeletonType.Rectangle" Width="80%" Height="40vh" />
+            </div>
+            <div class="col-sm-12 col-md-4" flex-center>
+                <MudSkeleton Animation="@Animation.Pulse" SkeletonType="@SkeletonType.Rectangle" Width="80%" Height="40vh" />
+            </div>
+        </div>
     }
     else
     {

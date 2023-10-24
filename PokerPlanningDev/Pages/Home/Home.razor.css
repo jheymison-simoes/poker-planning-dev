@@ -1,0 +1,63 @@
+.home-main {
+    height: 100vh;
+    background-image: url("images/background_start.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home-form-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-form-logo > img {
+    width: 10rem;
+}
+
+@font-face {
+    font-family: squelar;
+    src: url('font/Squealer.otf');
+}
+
+.home-form-logo > h1 {
+    text-align: center;
+    margin-top: 1rem;
+    font-family: 'squelar';
+}
+
+.home-form {
+    margin-left: 5rem;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 38%;
+    border: 1px solid #060606;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    box-shadow: -1px 4px 20px 5px #000;
+    position: relative
+}
+
+.home-form > ::deep form > h3 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+::deep button {
+    width: 100%;
+    height: 4rem;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.room-info {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}

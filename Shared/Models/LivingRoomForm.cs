@@ -4,7 +4,7 @@ namespace Shared.Models;
 
 public class LivingRoomForm
 {
-    [Required]
+    [Required(ErrorMessage = "O nome da sala é obrigatório!")]
     public string Name { get; set; }
 }
 

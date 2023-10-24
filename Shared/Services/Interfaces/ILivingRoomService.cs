@@ -12,4 +12,5 @@ public interface ILivingRoomService
     LivingRoom AddVote(Guid roomId, Guid playerId, VotingCard card);
     DuelResult Calculate(Guid roomId);
     LivingRoom ResetVotes(Guid roomId);
+    int GetQuantityRooms();
 }

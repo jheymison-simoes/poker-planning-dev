@@ -2,10 +2,9 @@
 
 <MudDialog>
     <DialogContent>
-        <MudTextField @bind-Value="@ParticipantName" Label="Outlined" Variant="Variant.Outlined"></MudTextField>
+        <MudTextField @bind-Value="@ParticipantName" Label="Seu Nome" Variant="@Variant.Outlined"></MudTextField>
     </DialogContent>
     <DialogActions>
-        @* <MudButton OnClick="@Cancel">C</MudButton> *@
         <MudButton Color="Color.Primary" OnClick="@Submit">Ok</MudButton>
     </DialogActions>
 </MudDialog>

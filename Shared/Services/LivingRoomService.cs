@@ -65,12 +65,7 @@ public class LivingRoomService : ILivingRoomService
     {
         var room = GetAndValidateRoomById(roomId);
         var votes = room.Players.Where(p => p.Vote is > 0 and < 1000).Select(p => p.Vote).ToList();
-        // if (!votes.Any())
-        // {
-        //     AddPlayerHandler?.Invoke(this, new());
-        //     return new DuelResult();
-        // }
-        
+
         room.DuelResult = new DuelResult()
         {
             Average = votes.Any() ? votes.Average() : default,
@@ -97,6 +92,9 @@ public class LivingRoomService : ILivingRoomService
         AddPlayerHandler?.Invoke(this, new());
         return room;
     }
+
+    public int GetQuantityRooms() => _rooms.Count;
+    
 
     #region Private Methods
 
