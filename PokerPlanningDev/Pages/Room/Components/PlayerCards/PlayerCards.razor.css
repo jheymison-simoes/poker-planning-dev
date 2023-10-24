@@ -1,0 +1,121 @@
+.room-voting-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.room-voting-options-deck {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.room-voting-options-deck-image {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-top: 3rem;
+}
+
+.room-voting-options > img {
+    width: 10rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.room-options {
+    display: flex;
+    gap: .5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-height: 30rem;
+}
+
+.room-option {
+    border-radius: 0.5rem;
+    width: 4rem;
+    height: 6rem;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #ffffff;
+    background-image: url('images/y_verso.png');
+    transition: all 0.3s ease;
+    transform: scale(0.9);
+    cursor: pointer;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.room-option:hover {
+    transform: scale(1);
+    background-image: url('images/y_frente.jpg');
+    color: #000000;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.selected {
+    margin-top: -.5rem;
+    background-image: url('images/y_frente.jpg');
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #000000;
+}
+
+.card-img {
+    width: 10rem;
+    text-align: center;
+    background-image: url(images/y_verso.png);
+    background-size: cover;
+    height: 14.5rem;
+}
+
+.selected-card-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    color: #000000;
+}
+
+.card-img > span {
+    transform: rotateY(180deg);
+}
+
+.rotating {
+    animation: spin 0.8s ease forwards;
+    transform-style: preserve-3d;
+    background-image: url('images/y_frente.jpg');
+}
+
+.unselected-card-img {
+    animation: spin 0.8s ease forwards;
+    transform-style: preserve-3d;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(180deg);
+    }
+}

@@ -1,0 +1,31 @@
+@page "/Room/{RoomId:guid}"
+@using PokerPlanningDev.Pages.Room.Components.PlayerCards
+@using PokerPlanningDev.Pages.Room.Components.PlayResult
+@using PokerPlanningDev.Pages.Room.Components.Players
+@inherits RoomBase
+
+<PageTitle>Sala @Room?.Name</PageTitle>
+
+<main class="room-main">
+    
+    @if (Room is null || Player is null)
+    {
+        <MudSkeleton />
+        <MudSkeleton SkeletonType="SkeletonType.Circle" />
+        <MudSkeleton SkeletonType="SkeletonType.Rectangle" />
+    }
+    else
+    {
+        <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <PlayerCards RoomId="@Room.Id" PlayerId="@Player.Id" Cards="@Player.VotingCards" />
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <PlayResult RoomId="@Room.Id" DuelResult="@Room.DuelResult"/>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <Players Players="@Room.Players" DuelResult="@Room.DuelResult"/>
+            </div>
+        </div>
+    }
+</main>

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "vSO5DU7O8OLQt4/uxBpND+P1sJq0WLFTZQabcOEbNF6XO8Dxs9uXocub3gXZvb+a2T0IlGW3X9jUROruPZLQmw==",
+  "success": true,
+  "projectFilePath": "D:\\Repos\\reposJhey\\PokerPlanningDev\\Shared\\Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jheymison.Santos\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Jheymison.Santos\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.12\\microsoft.netcore.app.ref.7.0.12.nupkg.sha512",
+    "C:\\Users\\Jheymison.Santos\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.12\\microsoft.windowsdesktop.app.ref.7.0.12.nupkg.sha512",
+    "C:\\Users\\Jheymison.Santos\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.12\\microsoft.aspnetcore.app.ref.7.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

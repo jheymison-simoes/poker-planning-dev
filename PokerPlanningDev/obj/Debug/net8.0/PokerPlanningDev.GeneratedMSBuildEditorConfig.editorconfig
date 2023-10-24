@@ -1,0 +1,47 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PokerPlanningDev
+build_property.RootNamespace = PokerPlanningDev
+build_property.ProjectDir = D:\Repos\reposJhey\PokerPlanningDev\PokerPlanningDev\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Repos\reposJhey\PokerPlanningDev\PokerPlanningDev
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Repos/reposJhey/PokerPlanningDev/PokerPlanningDev/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repos/reposJhey/PokerPlanningDev/PokerPlanningDev/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repos/reposJhey/PokerPlanningDev/PokerPlanningDev/Components/Pages/Home/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lXEhvbWUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repos/reposJhey/PokerPlanningDev/PokerPlanningDev/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repos/reposJhey/PokerPlanningDev/PokerPlanningDev/Components/Shared/Loading/Loading.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTaGFyZWRcTG9hZGluZ1xMb2FkaW5nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repos/reposJhey/PokerPlanningDev/PokerPlanningDev/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repos/reposJhey/PokerPlanningDev/PokerPlanningDev/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-ijdbj8y73l

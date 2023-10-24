@@ -1,0 +1,33 @@
+﻿@page "/"
+@using MudBlazor
+@inherits HomeBase
+
+<PageTitle>Home</PageTitle>
+
+<main class="home-main container">
+
+    <h1>Criar Sala</h1>
+    
+    <EditForm Model="@Form" OnSubmit="@OnValidSubmit">
+        <DataAnnotationsValidator/>
+
+        <MudTextField 
+            Label="Nome da Sala" 
+            Variant="@Variant.Outlined"
+            Class="mb-2"
+            @bind-Value="@Form.Name" 
+            For="@(() => Form.Name)"
+        />
+        <MudButton
+            Variant="@Variant.Outlined"
+            Color="@Color.Success"
+            Class="ml-auto"
+            EndIcon="@Icons.Material.Filled.Create"
+            ButtonType="@ButtonType.Submit"
+            Size="@Size.Large"
+        >
+            CRIAR
+        </MudButton>
+    </EditForm>
+
+</main>

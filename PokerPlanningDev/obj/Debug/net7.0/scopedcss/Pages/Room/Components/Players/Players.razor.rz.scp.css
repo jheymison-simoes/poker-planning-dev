@@ -1,0 +1,43 @@
+.room-participants[b-a8kiouzlv9] {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    height: 100vh;
+    justify-content: space-between;
+    padding-top: 3rem;
+}
+
+.room-participant[b-a8kiouzlv9] {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+    text-shadow: 2px 1px black;
+    box-shadow: -1px 6px 7px 0px #292929;
+}
+
+.room-participant > div:first-child[b-a8kiouzlv9] {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.room-participant > div:nth-child(2) > img[b-a8kiouzlv9] {
+    width: 2rem;
+    margin-right: .5rem;
+}
+
+
+h3[b-a8kiouzlv9] {
+    text-align: center;
+    margin-bottom: 2rem;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-top: 3rem;
+}

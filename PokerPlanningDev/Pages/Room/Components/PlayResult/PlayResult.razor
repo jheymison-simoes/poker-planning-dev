@@ -1,0 +1,50 @@
+@inherits PlayResultBase
+<main class="room-result">
+    <section class="room-result-duel">
+        <section class="room-result-img @(DuelResult != null ? "duel-result" : "")">
+            @if (DuelResult is not null) {
+                <span><strong>@DuelResult.Average</strong></span>
+                <span><strong>Média</strong></span>
+            }
+        </section>
+        
+        <section class="room-result-calculated">
+            <div>
+                @if (DuelResult is not null)
+                {
+                    <span>
+                        <strong>@DuelResult.RoundedAverage</strong>
+                        <span>Arredondada</span>
+                    </span>
+                    <span>
+                        <strong>@DuelResult.HighestValue</strong>
+                        <span>Maior Valor</span>
+                    </span>
+                }
+            </div>
+        </section>
+    </section>
+    
+    @if (DuelResult is null)
+        {
+            <MudButton
+                Color="@Color.Success"
+                Variant="@Variant.Filled"
+                EndIcon="@Icons.Material.Outlined.PlayCircle"
+                Size="@Size.Large"
+                OnClick="@Calculate">
+                DUELAR
+            </MudButton>
+        }
+        else
+        {
+            <MudButton
+                Color="@Color.Success"
+                Variant="@Variant.Filled"
+                EndIcon="@Icons.Material.Outlined.PlayCircle"
+                Size="@Size.Large"
+                OnClick="@ResetVotes">
+                NOVO DUELO
+            </MudButton>
+        }
+</main>

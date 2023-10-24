@@ -1,0 +1,46 @@
+﻿@inherits PlayerCardsBase
+
+<main class="room-voting-options">
+    
+    <section class="room-voting-options-deck">
+        
+        <div class="room-voting-options-deck-image">
+            @if (CardSelected is not null)
+            {
+                <div class="card-img selected-card-img rotating">
+                    @if (CardSelected.Description == "Coffe")
+                    {
+                        <span><MudIcon Icon="@Icons.Material.Filled.Coffee"/></span>
+                    }
+                    else
+                    {
+                        <span>@CardSelected.Description</span>
+                    }
+                </div>
+            }
+            else
+            {
+                <div class="card-img unselected-card-img"></div>
+            }
+        </div>
+
+
+        <div class="room-options">
+            @foreach (var card in Cards)
+            {
+                <div class="room-option @(card.Selected ? "selected" : "")" @onclick="@(() => SelectCard(card))">
+                    @if (card.Description == "Coffe")
+                    {
+                        <span><MudIcon Icon="@Icons.Material.Filled.Coffee"/></span>
+                    }
+                    else
+                    {
+                        <span>@card.Description</span>
+                    }
+                </div>
+            }
+        </div>
+    </section>
+
+    <h3>Meu Deck</h3>
+</main>

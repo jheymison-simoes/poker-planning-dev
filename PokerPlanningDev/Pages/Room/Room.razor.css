@@ -1,0 +1,10 @@
+.room-main {
+    max-width: 100rem;
+    margin: 0 auto;
+    /* height: 100vh; */
+}
+
+::deep h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+}

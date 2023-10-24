@@ -1,0 +1,50 @@
+@inherits PlayersBase
+
+<main class="room-participants">
+    <section class="room-participants-group">
+        @if (!Players.Any())
+        {
+            <MudAlert Severity="@Severity.Info" Variant="@Variant.Outlined">Aguardando Participantes</MudAlert>
+        }
+        else
+        {
+            @foreach (var player in Players)
+            {
+                <div class="room-participant">
+                    <div class="">
+                        <MudIcon Class="mr-2" Icon="@Icons.Material.Filled.Person"/>
+                        @player.Name
+                    </div>
+                    @switch (player.Vote)
+                    {
+                        case > 0 when DuelResult is not null:
+                        {
+                            <div>
+                                <img src="images/y_frente.jpg" alt="yu gi ho virado para cima">
+                                @switch (player.Vote)
+                                {
+                                    case 1000:
+                                        <span>?</span>
+                                        break;
+                                    case >= 1001:
+                                        <MudIcon Icon="@Icons.Material.Outlined.Coffee"></MudIcon>
+                                        break;
+                                    default:
+                                        <span>@player.Vote</span>
+                                        break;
+                                }
+                            </div>
+                            break;
+                        }
+                        case > 0:
+                            <div>
+                                <img src="images/y_verso.png" alt="yu gi ho virado para baixo">
+                            </div>
+                            break;
+                    }
+                </div>
+            }
+        }
+    </section>
+    <h3>Jogadores</h3>
+</main>

@@ -1,0 +1,67 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PokerPlanningDev
+build_property.RootNamespace = PokerPlanningDev
+build_property.ProjectDir = D:\Repos\reposJhey\PokerPlanningDev\PokerPlanningDev\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Repos\reposJhey\PokerPlanningDev\PokerPlanningDev
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Repos/reposJhey/PokerPlanningDev/PokerPlanningDev/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repos/reposJhey/PokerPlanningDev/PokerPlanningDev/Components/Shared/Loading/Loading.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTaGFyZWRcTG9hZGluZ1xMb2FkaW5nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repos/reposJhey/PokerPlanningDev/PokerPlanningDev/Pages/Home/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVxIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repos/reposJhey/PokerPlanningDev/PokerPlanningDev/Pages/Room/Components/ParticipantDialog/ParticipantDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9vbVxDb21wb25lbnRzXFBhcnRpY2lwYW50RGlhbG9nXFBhcnRpY2lwYW50RGlhbG9nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repos/reposJhey/PokerPlanningDev/PokerPlanningDev/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repos/reposJhey/PokerPlanningDev/PokerPlanningDev/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-ijdbj8y73l
+
+[D:/Repos/reposJhey/PokerPlanningDev/PokerPlanningDev/Pages/Room/Components/PlayerCards/PlayerCards.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9vbVxDb21wb25lbnRzXFBsYXllckNhcmRzXFBsYXllckNhcmRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-z67a2atwq2
+
+[D:/Repos/reposJhey/PokerPlanningDev/PokerPlanningDev/Pages/Room/Components/Players/Players.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9vbVxDb21wb25lbnRzXFBsYXllcnNcUGxheWVycy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-a8kiouzlv9
+
+[D:/Repos/reposJhey/PokerPlanningDev/PokerPlanningDev/Pages/Room/Components/PlayResult/PlayResult.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9vbVxDb21wb25lbnRzXFBsYXlSZXN1bHRcUGxheVJlc3VsdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-5uddce3n1j
+
+[D:/Repos/reposJhey/PokerPlanningDev/PokerPlanningDev/Pages/Room/Room.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9vbVxSb29tLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-kg1xn8iry7
+
+[D:/Repos/reposJhey/PokerPlanningDev/PokerPlanningDev/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Repos/reposJhey/PokerPlanningDev/PokerPlanningDev/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
