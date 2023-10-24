@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1SD2V+h0Ci8wd8Qsvlf7O2bjOCBSdqUZsLT3xPW3jzFfJ7UexdPdc7dsxawGRC+iQ+wuRRi7avOh/zV3As9TyA==",
+  "dgSpecHash": "N5ijUm3MVmqtyDPC4asnMTsZ4vZkddr3uhdFMe7OyskHO+jIhJzgtD0iFl6/V5LZkuUOVt2ESU9drdDSWZe8pA==",
   "success": true,
-  "projectFilePath": "D:\\Repos\\reposJhey\\PokerPlanningDev\\PokerPlanningDev\\PokerPlanningDev.csproj",
+  "projectFilePath": "D:\\Repos\\reposJhey\\poker-planning-dev\\PokerPlanningDev\\PokerPlanningDev.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jheymison.Santos\\.nuget\\packages\\blazored.localstorage\\4.4.0\\blazored.localstorage.4.4.0.nupkg.sha512",
     "C:\\Users\\Jheymison.Santos\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.5\\microsoft.aspnetcore.authorization.7.0.5.nupkg.sha512",

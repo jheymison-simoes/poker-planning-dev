@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repos\\reposJhey\\PokerPlanningDev\\PokerPlanningDev\\PokerPlanningDev.csproj": {}
+    "D:\\Repos\\reposJhey\\poker-planning-dev\\PokerPlanningDev\\PokerPlanningDev.csproj": {}
   },
   "projects": {
-    "D:\\Repos\\reposJhey\\PokerPlanningDev\\PokerPlanningDev\\PokerPlanningDev.csproj": {
+    "D:\\Repos\\reposJhey\\poker-planning-dev\\PokerPlanningDev\\PokerPlanningDev.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repos\\reposJhey\\PokerPlanningDev\\PokerPlanningDev\\PokerPlanningDev.csproj",
+        "projectUniqueName": "D:\\Repos\\reposJhey\\poker-planning-dev\\PokerPlanningDev\\PokerPlanningDev.csproj",
         "projectName": "PokerPlanningDev",
-        "projectPath": "D:\\Repos\\reposJhey\\PokerPlanningDev\\PokerPlanningDev\\PokerPlanningDev.csproj",
+        "projectPath": "D:\\Repos\\reposJhey\\poker-planning-dev\\PokerPlanningDev\\PokerPlanningDev.csproj",
         "packagesPath": "C:\\Users\\Jheymison.Santos\\.nuget\\packages\\",
-        "outputPath": "D:\\Repos\\reposJhey\\PokerPlanningDev\\PokerPlanningDev\\obj\\",
+        "outputPath": "D:\\Repos\\reposJhey\\poker-planning-dev\\PokerPlanningDev\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jheymison.Santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Repos\\reposJhey\\PokerPlanningDev\\Shared\\Shared.csproj": {
-                "projectPath": "D:\\Repos\\reposJhey\\PokerPlanningDev\\Shared\\Shared.csproj"
+              "D:\\Repos\\reposJhey\\poker-planning-dev\\Shared\\Shared.csproj": {
+                "projectPath": "D:\\Repos\\reposJhey\\poker-planning-dev\\Shared\\Shared.csproj"
               }
             }
           }
@@ -94,14 +94,14 @@
         }
       }
     },
-    "D:\\Repos\\reposJhey\\PokerPlanningDev\\Shared\\Shared.csproj": {
+    "D:\\Repos\\reposJhey\\poker-planning-dev\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repos\\reposJhey\\PokerPlanningDev\\Shared\\Shared.csproj",
+        "projectUniqueName": "D:\\Repos\\reposJhey\\poker-planning-dev\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "D:\\Repos\\reposJhey\\PokerPlanningDev\\Shared\\Shared.csproj",
+        "projectPath": "D:\\Repos\\reposJhey\\poker-planning-dev\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\Jheymison.Santos\\.nuget\\packages\\",
-        "outputPath": "D:\\Repos\\reposJhey\\PokerPlanningDev\\Shared\\obj\\",
+        "outputPath": "D:\\Repos\\reposJhey\\poker-planning-dev\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jheymison.Santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
