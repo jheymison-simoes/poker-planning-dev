@@ -1,40 +1,61 @@
-﻿# .gitignore for .NET Blazor Server
+﻿# Arquivos temporários criados pelo Visual Studio
+.vscode/
+.vs/
+bin/
+obj/
+
+# Diretórios específicos do .NET
+*.User
+*.suo
+*.cache
+*.log
+
+# Pacotes do NuGet
+packages/
+
+# Arquivos de configuração do .NET
+*.dll.config
+*.exe.config
+
+# Logs e arquivos temporários
+*.log
+*.swp
+*.swo
+
+# Arquivos de compilação
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Rider
+.idea/
+
+# Arquivos de compilação e execução para Rider
+.idea/
+*.sln.iml
+*.ide-workspace
+
+# Rider, considerando .NET/Unity
+.idea/
 
 # Visual Studio Code
 .vscode/
 
-# Rider
+# Rider, considerando .NET/Unity
 .idea/
 
 # User-specific files
 *.rsuser
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-# NuGet packages
-*.nuget.props
-*.paket.restore
-packages/
-project.lock.json
-project.fragment.lock.json
-npm-debug.log
-
-# .NET Sdk
-project.assets.json
-
-# Rider
-.idea/
-
-# User-specific files
-*.rsuser
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-# User-specific files
 *.suo
 *.user
 *.userosscache
@@ -64,62 +85,3 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-
-# JetBrains Rider
-.idea/
-
-# User-specific files
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-# Rider
-.idea/
-
-# User-specific files
-*.rsuser
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-# User-specific files
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-# Mono Auto Generated Files
-mono_crash.*
-
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# VS Code directories
-.vscode/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# JetBrains Rider
-.idea/
-
-# User-specific files
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
