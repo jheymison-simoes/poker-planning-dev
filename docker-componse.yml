@@ -1,0 +1,24 @@
+version: '3.9'
+
+services:
+  poke-planning-dev:
+    image: poker-planning-dev:latest
+    container_name: poker-planning-dev
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    dns:
+      - 8.8.8.8
+    ports:
+      - "5042:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Docker
+      - ASPNETCORE_URLS=http://+:80
+    networks:
+      - poker-planning-dev-network
+    volumes:
+      - ~/.config/:/root/.config
+
+networks:
+  poker-planning-dev-network:
+    driver: bridge
