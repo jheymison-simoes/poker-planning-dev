@@ -1,4 +1,6 @@
-﻿namespace Shared.Exceptions;
+﻿using System;
+
+namespace Shared.Exceptions;
 
 public class CustomException : Exception
 {

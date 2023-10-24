@@ -1,4 +1,6 @@
-﻿namespace Shared.ComponentsServices.Interfaces;
+﻿using System;
+
+namespace Shared.ComponentsServices.Interfaces;
 
 public interface ILoadingService
 {

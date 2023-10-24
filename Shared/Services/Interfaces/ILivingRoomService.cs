@@ -1,4 +1,5 @@
-﻿using Shared.Models;
+﻿using System;
+using Shared.Models;
 
 namespace Shared.Services.Interfaces;
 
