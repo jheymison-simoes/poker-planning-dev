@@ -7,17 +7,17 @@ using Shared.Services.Interfaces;
 
 namespace Shared.Schedules;
 
-public class FinishRoomScheduleService : IFinishRoomScheduleService
+public class FinishRoomsScheduleService : IFinishRoomsScheduleService
 {
 
-    private readonly ILogger<FinishRoomScheduleService> _logger;
+    private readonly ILogger<FinishRoomsScheduleService> _logger;
     private readonly ILivingRoomService _livingRoomService;
     private PerformContext _performContext;
 
     private const int MaxHour = -3;
 
-    public FinishRoomScheduleService(
-        ILogger<FinishRoomScheduleService> logger, 
+    public FinishRoomsScheduleService(
+        ILogger<FinishRoomsScheduleService> logger, 
         ILivingRoomService livingRoomService)
     {
         _logger = logger;

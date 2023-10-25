@@ -7,11 +7,13 @@ public static class SchedulesConfig
 {
     public static void AddSchedules(this IServiceCollection services)
     {
-        services.AddSingleton<IFinishRoomScheduleService, FinishRoomScheduleService>();
+        services.AddSingleton<IFinishRoomsScheduleService, FinishRoomsScheduleService>();
+        services.AddSingleton<IClearRoomsScheduleService, ClearRoomsScheduleService>();
     }
     
     public static void AddSchedulesRun(this IServiceProvider serviceProvider)
     {
-        serviceProvider.GetService<IFinishRoomScheduleService>()?.Run();
+        serviceProvider.GetService<IFinishRoomsScheduleService>()?.Run();
+        serviceProvider.GetService<IClearRoomsScheduleService>()?.Run();
     }
 }

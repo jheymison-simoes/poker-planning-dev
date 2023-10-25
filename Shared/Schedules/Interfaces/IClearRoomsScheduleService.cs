@@ -1,6 +1,6 @@
 ﻿namespace Shared.Schedules.Interfaces;
 
-public interface IFinishRoomScheduleService
+public interface IClearRoomsScheduleService
 {
     void Run();
 }
