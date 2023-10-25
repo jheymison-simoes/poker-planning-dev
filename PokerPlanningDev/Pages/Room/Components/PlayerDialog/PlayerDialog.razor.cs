@@ -4,12 +4,12 @@ using PokerPlanningDev.Components.Shared.BaseComponent;
 using Shared.Exceptions;
 using Shared.Services.Interfaces;
 
-namespace PokerPlanningDev.Pages.Room.Components.ParticipantDialog;
+namespace PokerPlanningDev.Pages.Room.Components.PlayerDialog;
 
-public class ParticipantDialogBase : BaseComponent
+public class PlayerDialogBase : BaseComponent
 {
     #region Parametros
-    [CascadingParameter] MudDialogInstance MudDialog { get; set; }
+    [CascadingParameter] public MudDialogInstance MudDialog { get; set; }
     #endregion
 
     #region Dependnecies
@@ -18,6 +18,13 @@ public class ParticipantDialogBase : BaseComponent
 
     #region Variables
     public string ParticipantName = string.Empty;
+    public DialogOptions DialogOptions = new ()
+    {
+        MaxWidth = MaxWidth.Large,
+        DisableBackdropClick = true,
+        CloseOnEscapeKey = false,
+        FullWidth = true
+    };
     #endregion
 
     protected void Submit()

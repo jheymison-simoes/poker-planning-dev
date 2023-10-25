@@ -7,6 +7,11 @@
     padding-top: 3rem;
 }
 
+.room-participants-group {
+    overflow-y: auto;
+    padding-bottom: 1rem;
+}
+
 .room-participant {
     padding: 1rem;
     border-radius: 0.5rem;
@@ -30,7 +35,6 @@
     width: 2rem;
     margin-right: .5rem;
 }
-
 
 h3 {
     text-align: center;

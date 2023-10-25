@@ -1,9 +1,7 @@
-using System;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Components;
 using MudBlazor;
 using PokerPlanningDev.Components.Shared.BaseComponent;
-using PokerPlanningDev.Pages.Room.Components.ParticipantDialog;
+using PokerPlanningDev.Pages.Room.Components.PlayerDialog;
 using Shared.Exceptions;
 using Shared.Helpers;
 using Shared.Models;
@@ -65,8 +63,14 @@ public class RoomBase : BaseComponent, IDisposable
         var player = await LocalStorageService.GetItemAsync<Player>(PlayerConstants.PlayerCacheKey);
         if (player is null)
         {
-            var closeOnEscapeKey = new DialogOptions() { CloseOnEscapeKey = true, CloseButton = true};
-            var dialog = await DialogService.ShowAsync<ParticipantDialog>("Entrar como participante", closeOnEscapeKey);
+            var closeOnEscapeKey = new DialogOptions()
+            {
+                MaxWidth = MaxWidth.Medium,
+                DisableBackdropClick = true,
+                CloseOnEscapeKey = false,
+                FullWidth = true
+            };
+            var dialog = await DialogService.ShowAsync<PlayerDialog>("Jogador", closeOnEscapeKey);
             var result = await dialog.Result;
 
             player = new Player(result.Data.ToString()!);
