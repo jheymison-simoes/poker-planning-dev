@@ -63,6 +63,18 @@
     right: 1rem;
 }
 
+::deep .mud-input>input.mud-input-root-outlined.mud-input-root-margin-normal, 
+div.mud-input-slot.mud-input-root-outlined.mud-input-root-margin-dense {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 1.2rem;
+}
+
+::deep .mud-input-label-outlined.mud-input-label-margin-normal {
+    transform: translate(16px,33px) scale(1);
+    background-color: rgb(2 0 3);
+}
+
 @media screen and (max-width: 1280px) {
     .home-main {
         align-items: center;

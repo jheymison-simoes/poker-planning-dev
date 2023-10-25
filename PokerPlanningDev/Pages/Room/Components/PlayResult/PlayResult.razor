@@ -3,7 +3,14 @@
     <section class="room-result-duel">
         <section class="room-result-img @(DuelResult != null ? "duel-result" : "")">
             @if (DuelResult is not null) {
-                <span><strong>@DuelResult.Average</strong></span>
+                <span><strong>
+                    @(
+                        DuelResult.Average % 1 == 0 
+                            ? @DuelResult.Average
+                            : @DuelResult.Average.ToString("F1")
+                    )
+                </strong>
+                </span>
                 <span><strong>Média</strong></span>
             }
         </section>

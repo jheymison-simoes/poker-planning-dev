@@ -69,7 +69,7 @@ public class LivingRoomService : ILivingRoomService
         room.DuelResult = new DuelResult()
         {
             Average = votes.Any() ? votes.Average() : default,
-            RoundedAverage = votes.Any() ? Math.Round(votes.Average()) : default,
+            RoundedAverage = votes.Any() ? Math.Ceiling(votes.Average()) : default,
             HighestValue = votes.Any() ? votes.MaxBy(g => g) : default
         };
         
