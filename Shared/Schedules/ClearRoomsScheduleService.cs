@@ -44,10 +44,12 @@ public class ClearRoomsScheduleService : IClearRoomsScheduleService
             return;
         }
 
+        var countRooms = rooms.Count;
+        
         rooms = new List<LivingRoom>();
         _livingRoomService.SetRooms(rooms);
         
-        LogInformation($"Foram limpadas {rooms.Count} salas!");
+        LogInformation($"Foram limpadas {countRooms} salas!");
     }
     
     #region Private Methods
