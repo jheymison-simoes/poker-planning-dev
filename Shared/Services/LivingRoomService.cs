@@ -94,6 +94,10 @@ public class LivingRoomService : ILivingRoomService
     }
 
     public int GetQuantityRooms() => _rooms.Count;
+
+    public List<LivingRoom> GetRooms() => _rooms;
+
+    public void SetRooms(List<LivingRoom> rooms) => _rooms = rooms;
     
 
     #region Private Methods

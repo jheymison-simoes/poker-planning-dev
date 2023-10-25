@@ -1,7 +1,7 @@
 .room-main {
     max-width: 100rem;
     margin: 0 auto;
-    /* height: 100vh; */
+    padding: 0 2rem;
 }
 
 ::deep h3 {

@@ -4,7 +4,7 @@ using Shared.ComponentsServices.Interfaces;
 using Shared.Services;
 using Shared.Services.Interfaces;
 
-namespace PokerPlanningDev.Configurantion;
+namespace PokerPlanningDev.Configuration;
 
 public static class DependencyInjectionConfig
 {

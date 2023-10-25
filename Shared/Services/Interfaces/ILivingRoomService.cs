@@ -13,4 +13,6 @@ public interface ILivingRoomService
     DuelResult Calculate(Guid roomId);
     LivingRoom ResetVotes(Guid roomId);
     int GetQuantityRooms();
+    List<LivingRoom> GetRooms();
+    void SetRooms(List<LivingRoom> rooms);
 }

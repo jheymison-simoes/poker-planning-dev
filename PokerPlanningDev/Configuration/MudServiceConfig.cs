@@ -2,7 +2,7 @@
 using MudBlazor;
 using MudBlazor.Services;
 
-namespace PokerPlanningDev.Configurantion;
+namespace PokerPlanningDev.Configuration;
 
 public static class MudServiceConfig
 {

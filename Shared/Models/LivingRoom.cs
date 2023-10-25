@@ -11,7 +11,7 @@ public class LivingRoom
     public List<Player> Players { get; set; } = new();
     public List<VotingCard> VotingCards { get; set; } = new();
     public DuelResult DuelResult { get; set; }
-    private DateTime CreatedAt { get; set; }
+    public DateTime CreatedAt { get; set; }
 
     private const int MaxVotingOptions = 11; 
     private readonly List<int> _exceptionNumbers = new() { 0, 1 };

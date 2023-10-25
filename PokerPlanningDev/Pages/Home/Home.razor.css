@@ -40,7 +40,8 @@
     border-radius: 0.5rem;
     padding: 2rem;
     box-shadow: -1px 4px 20px 5px #000;
-    position: relative
+    position: relative;
+    backdrop-filter: blur(14px);
 }
 
 .home-form > ::deep form > h3 {
